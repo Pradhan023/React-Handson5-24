@@ -1,0 +1,28 @@
+.Pure-cont{
+    margin: 10px 0 10px 50px;
+}
+.Pure-cont button
+{
+    font-size: large;
+    margin: 10px 0px 10px 0;
+    border: none;
+    background: none;
+    font-weight: bolder;
+}
+.Pure-cont button:hover span
+{
+    display: none;
+}
+
+.Pure-cont button:hover:before
+{
+    font-size: x-large;
+    content: "Click ";
+}
+.Pure-cont h3
+{
+    color:rgb(85, 34, 123);
+    position: absolute;
+    bottom: 88px;
+    left: 130px;
+}
