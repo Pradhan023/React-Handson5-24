@@ -1,13 +1,16 @@
 .Pure-cont{
     margin: 10px 0 10px 50px;
 }
+.Pure-cont h1{
+    margin-bottom: 1rem;
+}
 .Pure-cont button
 {
     font-size: large;
-    margin: 10px 0px 10px 0;
     border: none;
     background: none;
     font-weight: bolder;
+    
 }
 .Pure-cont button:hover span
 {
@@ -22,7 +25,12 @@
 .Pure-cont h3
 {
     color:rgb(85, 34, 123);
-    position: absolute;
-    bottom: 88px;
-    left: 130px;
+
+}
+.ans-fl{
+    display: flex;
+    gap: 0 20px;
+    height: 1rem;
+    padding-bottom: 4rem;
+    margin-bottom: 2rem;
 }
